@@ -1,0 +1,87 @@
+body {
+  padding: 1%;
+  font-family: "Georgia", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff url("img/background.jpg") no-repeat 50% 0;
+
+}
+
+h1 {
+  width: 260px;
+  font-family: "Tahoma", serif;
+  font-size: 36px;
+  line-height: 136px; /*межстрочный интервал*/
+  color:#FFFAFA;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*рамка вокруг букв*/
+
+}
+
+h2 {
+  padding-top:20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.site-header {
+  margin-bottom: 10px;
+}
+
+.skills-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+
+}
+
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.feature-stage {
+  padding-top: 60px;
+  background-image: url("img/car.png");
+}
+
+.feature-car {
+  padding-top: 60px;
+  background-image: url("img/camry.png");
+}
+
+.feature-inst {
+  padding-top: 60px;
+  background-image: url("img/instructor.png");
+}
+
+.skills-list {
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
