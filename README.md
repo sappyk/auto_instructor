@@ -1,1 +1,1 @@
-# auto_instructor
+# Simple Landing Page
